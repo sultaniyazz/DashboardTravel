@@ -9,6 +9,8 @@ import Users from './pages/Users'
 import { useDispatch } from 'react-redux'
 import { getAllDestData, getAllTourData } from './utils/request'
 import '../src/config/i18next'
+import Createtours from './pages/Createtours.jsx';
+
 
 const App = () => {
   const dispatch = useDispatch()
